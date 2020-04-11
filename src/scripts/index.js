@@ -1,4 +1,5 @@
 import * as CANNON from '../../../cannon-es/dist';
+// import * as CANNON from 'cannon';
 import { Demo } from './demo';
 
 CANNON.Demo = Demo;
@@ -59,3 +60,5 @@ demo.addScene('jenga', function () {
 });
 
 demo.start();
+
+export { CANNON };

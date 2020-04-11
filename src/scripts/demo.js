@@ -14,7 +14,7 @@
 /* eslint-disable eqeqeq */
 
 import * as THREE from 'three';
-import * as CANNON from '../../../cannon-es/dist';
+import { CANNON } from './index';
 import { TrackballControls } from './TrackballControls';
 
 /**

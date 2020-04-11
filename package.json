@@ -4,7 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run clean && webpack-dev-server --open",
+    "clean": "rimraf dist"
   },
   "author": "",
   "license": "ISC",

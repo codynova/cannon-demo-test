@@ -10,4 +10,5 @@ module.exports = (env, argv) => createWebpackConfig({
             ],
         },
     },
+    useHttps: false,
 })
