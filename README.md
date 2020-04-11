@@ -25,5 +25,6 @@ import * as CANNON from '../../../cannon-es/dist';
 4. Run the `start` script in `cannon-demo-test` to launch a local dev server for testing Cannon demos.
 ```
 cd cannon-demo-test
+yarn
 yarn start
 ```
